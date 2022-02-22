@@ -1,7 +1,10 @@
 @import 'base/variables';
 
-
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
 
 
 @import 'blocks/header';
 @import 'blocks/carousel';
+@import 'blocks/information';
