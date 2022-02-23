@@ -328,4 +328,134 @@ nav ul li a:hover {
   line-height: 21px;
   color: #222222;
 }
+
+.forms {
+  margin-top: 106px;
+  padding-bottom: 100px;
+  background-image: url("/src/img/forms/Rectangle.png");
+}
+
+.forms_title {
+  padding-top: 80px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.forms_subtitle {
+  width: 774px;
+  margin: 0 auto;
+  padding: 21px 0 13px 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #818181;
+}
+
+.forms_feed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 13px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 432px;
+}
+
+.forms_feed input {
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 13px;
+  border: none;
+  padding: 15px 0 15px 15px;
+  color: #818181;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.forms_feed input:nth-child(2) {
+  margin-bottom: 21px;
+}
+
+.forms_btn {
+  margin: 0 auto;
+  width: 292px;
+  background: var(--red);
+  border-radius: 40px;
+  padding: 21px 35px;
+  line-height: 28px;
+  font-weight: normal;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.forms_checkbox {
+  font-style: normal;
+  font-weight: 300;
+  padding-bottom: 45px;
+  font-size: 14px;
+  line-height: 144.68%;
+  color: #FFFFFF;
+}
+
+.forms_checkbox input {
+  margin-right: 13px;
+}
+
+.carouselmin {
+  background: url("/src/img/carouselmin/b.png");
+  padding-bottom: 100px;
+}
+
+.carouselmin_line {
+  width: 100%;
+  margin-top: -12px;
+}
+
+.carouselmin h2 {
+  margin: 0;
+  padding-top: 82px;
+  padding-bottom: 44px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.carouselmin_carousel {
+  position: relative;
+  margin: 0 auto;
+}
+
+.carouselmin_carousel .slick-prev, .carouselmin_carousel .slick-next {
+  position: absolute;
+  background: url("/src/img/carouselmin/b.png");
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #fff;
+}
+
+.carouselmin_carousel .slick-prev img, .carouselmin_carousel .slick-next img {
+  width: 15px;
+  height: 30px;
+}
+
+.carouselmin_carousel .slick-next {
+  left: auto;
+  right: -66px;
+}
 /*# sourceMappingURL=style.css.map */

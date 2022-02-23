@@ -1,0 +1,43 @@
+.carouselmin {
+    background: url('/src/img/carouselmin/b.png');
+    padding-bottom: 100px;
+    &_line {
+        width: 100%;
+        margin-top: -12px;
+    }
+
+    h2 {
+        margin: 0;
+        padding-top: 82px;
+        padding-bottom: 44px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &_carousel {
+        position: relative;
+        
+        margin: 0 auto;
+        .slick-prev,.slick-next {
+            position: absolute;
+            background: url('/src/img/carouselmin/b.png');
+            top: 50%;
+            transform: translateY(-50%);
+            left: -66px;
+            border: none;
+            background-color: #fff;
+            img {
+                width: 15px;
+                height: 30px;
+            }
+        }
+        .slick-next {
+            left: auto;
+            right: -66px;
+        }
+    }
+}
