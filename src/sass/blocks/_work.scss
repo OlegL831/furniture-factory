@@ -1,0 +1,76 @@
+.work {
+    background: url('../img/work/fon.png');
+    padding-bottom: 100px;
+    &_line {
+        width: 100%;
+        margin-top: -19px;
+    }
+    h2 {
+        padding: 75px 0 41px 0;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #444444;
+    }
+    &_wrapper {
+        display: flex; 
+        width: 357px;
+        height: 177px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        &_img {
+            padding: 64px 0 64px 29px;
+        }
+    }
+    &_subwrapper {
+
+        padding: 25px 27px 25px 36px;
+        &_line-4 {
+            padding: 44px 35px 44px 36px;
+        }
+        &_line-3 {
+            padding: 57px 55px 57px 36px;
+        }
+        &_line-4b {
+            padding: 50px 55px 44px 36px;
+        }
+        &_line-5 {
+            padding: 36px 24px 36px 36px;
+        }
+        p {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 23px;
+            color: #444444;
+            a {
+                img {
+                    padding: 0;
+                }
+            }
+        }
+        
+    }
+    &_container {
+        height: 40px;
+    }
+    &_btn {
+        display: block;
+        margin: 0 auto;
+        margin-top: 44px;
+        border-radius: 40px;
+        background: var(--red);
+        padding: 21px 38px;
+        a {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 28px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
