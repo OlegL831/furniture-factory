@@ -6,6 +6,10 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+body .colmy {
+  padding: 0;
+}
+
 header {
   position: relative;
   z-index: 1;
@@ -641,5 +645,104 @@ nav ul li a:hover {
   font-size: 20px;
   line-height: 30px;
   color: #818181;
+}
+
+.partners {
+  padding-top: 83px;
+  padding-bottom: 100px;
+  background: #F4F4F4;
+}
+
+.partners_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #444444;
+}
+
+.partners_subtitle {
+  padding-top: 21px;
+  padding-bottom: 30px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #444444;
+}
+
+.partners_carousel {
+  position: relative;
+}
+
+.partners_carousel img {
+  width: 160px;
+  height: 149px;
+}
+
+.partners_carousel .slick-prev, .partners_carousel .slick-next {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: -66px;
+  border: none;
+  background-color: #F4F4F4;
+}
+
+.partners_carousel .slick-prev img, .partners_carousel .slick-next img {
+  width: 15px;
+  height: 30px;
+}
+
+.partners_carousel .slick-next {
+  left: auto;
+  right: -66px;
+}
+
+.partners_services {
+  padding-top: 38px;
+  padding-bottom: 48px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  color: #444444;
+}
+
+.partners h3 {
+  margin: 0;
+  padding-bottom: 43px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #444444;
+}
+
+.partners_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 19px;
+}
+
+.partners_wrapper {
+  background: #FFFFFF;
+  text-align: center;
+  border-radius: 15px;
+  padding: 12px 17px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--red);
 }
 /*# sourceMappingURL=style.css.map */
